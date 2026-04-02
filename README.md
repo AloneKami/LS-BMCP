@@ -100,7 +100,7 @@ The instance file should follow the format below:
 m=<m> n=<n> knapsack size=<C>
 
 The weight of <m> items_next
-<w<sup>1</sup>> <w_2> ... <w_m>
+$$<w_1> <w_2> ... <w_m>$$
 
 The profit of <n> elements_next
 <p_1> <p_2> ... <p_n>
