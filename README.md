@@ -80,7 +80,7 @@ The solver is executed from the command line.
 ```bash
 ./LS-BMCP \
   --input_type 1 \
-  --data_file ./instances/585_600_0.05_2000.txt \
+  --data_file ./instance_small/585_600_0.05_2000.txt \
   --seed 1 \
   --time_limit 600 \
   --imax1 10000 \
