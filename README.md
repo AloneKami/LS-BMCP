@@ -141,6 +141,8 @@ where:
 - the next line gives the weights of all items,
 - the final line gives the profits of all elements.
 
+For the massive instances, the first two numbers in the instance name denote \(n_1\) and \(n_2\), respectively. Their correspondence is listed in `massive_instance_mapping.csv`.
+
 ## Output
 
 The program prints the solution information through the solver output routine after the search procedure finishes.
