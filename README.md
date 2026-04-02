@@ -100,24 +100,24 @@ The instance file should follow the format below:
 m=<m> n=<n> knapsack size=<C>
 
 The weight of <m> items_next
-<w1> <w2> ... <wm>
+<w_1> <w_2> ... <w_m>
 
 The profit of <n> elements_next
-<p1> <p2> ... <pn>
+<p_1> <p_2> ... <p_n>
 
 Relation matix
-<a11> a12 ... a1n
+<a_11> <a_12> ... <a_1n>
 ...
-<am1> am2 ... amn
+<am_1> <am_2> ... <a_mn>
 ```
 where:
 
-m is the number of items,
-n is the number of elements,
-C is the knapsack capacity,
-w_i is the weight of item i,
-p_j is the profit of element j,
-a_ij = 1 means item i covers element j, otherwise a_ij = 0.
+- m is the number of items,
+- n is the number of elements,
+- C is the knapsack capacity,
+- w_i is the weight of item i,
+- p_j is the profit of element j,
+- a_ij = 1 means item i covers element j, otherwise a_ij = 0.
 ### Input Type 2
 
 The instance file should follow the format below:
@@ -133,13 +133,13 @@ The instance file should follow the format below:
 
 where:
 
-m is the number of items,
-n is the number of elements,
-line is the number of item-element relations,
-C is the knapsack capacity,
-each pair (u, v) means item u covers element v,
-the next line gives the weights of all items,
-the final line gives the profits of all elements.
+- m is the number of items,
+- n is the number of elements,
+- line is the number of item-element relations,
+- C is the knapsack capacity,
+- each pair (u, v) means item u covers element v,
+- the next line gives the weights of all items,
+- the final line gives the profits of all elements.
 
 ## Output
 
