@@ -100,7 +100,7 @@ The instance file should follow the format below:
 m=<m> n=<n> knapsack size=<C>
 
 The weight of <m> items_next
-$$<w_1> <w_2> ... <w_m>$$
+<w_1> <w_2> ... <w_m>
 
 The profit of <n> elements_next
 <p_1> <p_2> ... <p_n>
@@ -123,12 +123,12 @@ where:
 The instance file should follow the format below:
 ```bash
 <m> <n> <line> <C>
-<u1> <v1>
-<u2> <v2>
+<u_1> <v_1>
+<u_2> <v_2>
 ...
-<uline> <vline>
-<w1> <w2> ... <wm>
-<p1> <p2> ... <pn>
+<u_line> <v_line>
+<w_1> <w_2> ... <w_m>
+<p_1> <p_2> ... <p_n>
 ```
 
 where:
